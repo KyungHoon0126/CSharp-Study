@@ -6,7 +6,17 @@
         xmlns:local="clr-namespace:WinAppWatcher"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+
     <Grid>
-        
+        <Menu>
+            <MenuItem Header="Main" x:Name="menuItem1">
+                <MenuItem Header="Refresh" x:Name="menuItem2"/>
+                <MenuItem Header="Exit" x:Name="menuItem3"/>
+            </MenuItem>
+        </Menu>
+
+        <DataGrid x:Name="dataGrid1">
+
+        </DataGrid>
     </Grid>
 </Window>
